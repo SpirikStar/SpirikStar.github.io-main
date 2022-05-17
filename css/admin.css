@@ -1,0 +1,297 @@
+.panel__left {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 8%;
+    height: 100%;
+    background: rgba(255, 255, 255, 1);
+    overflow: auto;
+}
+
+.panel__admin__left {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo__admin {
+    padding-top: 30px;
+}
+
+.btn__admin__panel__left {
+    margin: 0px auto;
+    text-align: center;
+    margin: auto;
+
+    width: 94px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.btn__schedule {
+    margin-top: 69px;
+}
+
+.btn__admin__panel__left:hover {
+    background-color: rgba(88, 88, 246, 0.06);
+}
+
+.activate {
+    background-color: rgba(88, 88, 246, 0.06);
+}
+
+.logo__schedule {
+    width: 40px;
+}
+
+.text__btn__panel {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 110%;
+    text-align: center;
+    color: rgba(48, 48, 48, 0.8);
+}
+
+.btn__academic__performance {
+    margin-top: 5px;
+}
+
+.panel__right {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 92%;
+    height: 100%;
+    background: rgba(245, 247, 250, 1);
+    box-shadow: 0px 3px 24px rgba(0, 32, 51, 0.08);
+    overflow: auto;
+}
+
+.container__block {
+    width: 1148px;
+    margin-top: 64px;
+    margin-left: 116px;
+}
+
+.panel__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title__schedule {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #303030;
+}
+
+.btn__pairs__add {
+    cursor: pointer;
+
+    color: #fff;
+    border: none;
+    width: 138px;
+    height: 40px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+
+    background: #5858F6;
+    border-radius: 99px;
+    vertical-align: middle;
+    padding: 0px 20px 0px 24px;
+}
+
+.block__view__admin {
+    width: 1448;
+    margin-top: 32px;
+    padding-left: 40px;
+    padding-top: 32px;
+    padding-right: 40px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 4px 4px rgba(0, 32, 51, 0.04), 0px 8px 24px rgba(0, 32, 51, 0.12);
+    border-radius: 20px;
+}
+
+.filter__panel {
+    display: flex;
+}
+
+.panel__admin__select__cours {
+    width: 129px;
+    height: 40px;
+    border: 1px solid rgba(48, 48, 48, 0.28);
+    border-radius: 99px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(48, 48, 48, 0.35);
+    padding-left: 16px;
+}
+
+.btn__open__cours {
+    border: none;
+    padding: 0px 24px;
+    width: 113px;
+    height: 40px;
+    left: 145px;
+    top: 0px;
+    background: rgba(48, 48, 48, 0.04);
+    border-radius: 99px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+
+    color: rgba(48, 48, 48, 0.26);
+
+}
+
+.panel__date__calendar__admin {
+    margin-left: 259px;
+}
+
+.btn__calendar {
+    cursor: pointer;
+    border: none;
+    padding: 0px 14px;
+    width: 48px;
+    height: 48px;
+    left: 517px;
+    background: #F5F7FA;
+    border-radius: 99px;
+}
+
+.span__date__Schedule {
+    padding: 13.5px 25px;
+    width: 208px;
+    height: 48px;
+    left: 575px;
+    top: 0px;
+
+    background: #F5F7FA;
+    border-radius: 99px;
+}
+
+.new__date {
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 48px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #303030;
+    width: 98px;
+    height: 48px;
+}
+
+.year {
+    color: rgba(48, 48, 48, 0.3);
+}
+
+.display__calendar {
+    margin-top: 40px;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.ttable__group__couple {
+    border: 1px solid rgba(48, 48, 48, 0.1);
+
+    width: 173px;
+    height: 48px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: rgba(48, 48, 48, 0.5);
+}
+
+.num__pairs {
+    border: 1px solid rgba(48, 48, 48, 0.1);
+
+    width: 208px;
+    height: 48px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+
+
+    color: #303030;
+
+}
+
+.info__data__pairs {
+    height: 152px;
+}
+
+.group__info {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    text-align: center;
+
+    color: #000000;
+
+    width: 173px;
+}
+
+.group__info {
+    border: 1px solid rgba(48, 48, 48, 0.1);
+}
+
+.card__pairs {
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.card__calendar__pairs {
+    width: 186px;
+    padding: 24px;
+
+    background: #F5F7FA;
+    border-radius: 12px;
+}
+.block__title{
+    width: 18px;
+}
+.title__pairs {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    color: #303030;
+}
